@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+
+      <fieldset>
+        <legend>HTML Form Dummy</legend>   <!-- legend is used to add caption to fieldset -->
+
+        <label for="email">Email ID</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <br/>
+        <br/>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+        
+        <br/>
+        <br/>
+
+        <label for="datepicker">Choose date:</label>
+        <input type="date" id="datepicker" placeholder="Enter your DOB">
+
+        <br/>
+        <br/>
+
+        <label for="selector1">Enter your favourite dish</label>
+        <select name="dishes" id="selector1" size="3">
+            <option value="maggi">Maggie</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+            <option value="noodles">Noodles</option>
+            <option value="pasta">Pasta</option>
+            <option value="pizza">Pizza</option>
+            <option value="sandwich">Sandwich</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <label for="selector2">Enter your favourite dish</label>
+        <select name="dishes" id="selector2" multiple>  <!-- in this ex: size in select tag is replaced by multiple. We can aslo use size with multiple, by default it shows size of 4-->
+            <option value="maggi">Maggie</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+            <option value="noodles">Noodles</option>
+            <option value="pasta">Pasta</option>
+            <option value="pizza">Pizza</option>
+            <option value="sandwich">Sandwich</option>
+        </select>
+
+        <br/>
+        <br/>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label> <!--for selecting only one radio button, name of all input tag should be same -->
+
+        <br/>
+        <br/>
+
+        <label for="english">English</label>
+        <input type="checkbox" name="checkbox" id="english">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" name="checkbox" id="hindi">
+
+        <br/>
+        <br/>
+
+        <label for="fileSelect">Choose file: </label>
+        <input type="file" name="fileSelect" id="fileSelect">
+
+        <br/>
+        <br/>
+
+        
+        <input type="image" name="image1" id="arrow" src="arrow1.png" height="25px" width="25px" alt="Click here..">
+
+        <br/>
+        <br/>
+
+        <input type="submit" value="Click here">
+        
+        <br/>
+        <br/>
+        
+        <button>Main hu button</button>
+
+        <br/>
+        <br/>
+
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10" placeholder="Enter your text here..."></textarea>
+
+      </fieldset>
+
+    </form>
+
+</body>
+</html>
